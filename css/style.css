@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    padding: 0 4rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    padding: 30px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 999999;
+    color: white;
+}
+
+.header-all{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left{
+    width: 25%;
+}
+
+.right{
+    width: 90%;
+    text-align: right;
+}
+
+.right a{
+    color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 2rem;
+}
+
+.right i{
+    color: #000;
+    font-size: 14px;
+    margin-left: 1rem;
+}
+
+#transactions{
+    background-color: #FBFBFB;
+    padding: 5rem 0;
+}
+#transactions .maindiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.maindiv .left{
+    width: 60%;
+}
+.maindiv .left img{
+    width: 100%;
+    border-radius: 20px;
+}
+.maindiv .right{
+    width: 35%;
+}
+.maindiv .right .box{
+    margin: 1rem 0;
+    padding: 2.5rem 3rem;
+    border-radius: 8px;
+    background-color: #69ACF1;
+    cursor: pointer;
+  }
+  .maindiv .right .box:nth-child(2){
+    background-color: #0EC4A3;
+  }
+  .maindiv .right .box h1{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #fff;
+  }
+  .maindiv .right .box-img{
+    border: #333 1px solid; 
+    background-color: transparent;
+  }
+  .maindiv .right .box-img{
+    margin: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.2rem 2rem;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+  .maindiv .right .box-img h1{
+    color: #303030;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .box-img .left{
+      width: 20%;
+  }
+  .box-img .left img{
+    width: 100%;
+}
+  .box-img .right{
+    width: 70%;
+}
+
+#search-base{
+    padding: 5rem 0;
+}
+.all-div{
+    display: flex;
+    justify-content: space-between;
+}
+.all-div .left{
+    width: 45%;
+}
+.all-div .left .box{
+    box-shadow: 0px 0px 8px 0px #e2e2e2;
+padding: 1rem 2rem;
+margin-bottom: 10px;
+}
+.all-div .left .box a{
+    color: #535353;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+}
+.all-div .left p{
+    font-size: 22px;
+    color: #4E4E4E;
+    margin-bottom: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.all-div .right{
+    width: 45%;
+}
+.all-div .right .box{
+    box-shadow: 0px 0px 8px 0px #e2e2e2;
+padding: 1rem 2rem;
+margin-bottom: 10px;
+}
+.all-div .right .box a{
+    color: #535353;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 24px;
+    display: block;
+    margin-top: 14px;
+    }
+.all-div .right p{
+    font-size: 22px;
+    color: #4E4E4E;
+    margin-bottom: 1.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.all-div .right .box-a{
+    box-shadow: 0px 0px 8px 0px #e2e2e2;
+    padding: 1.5rem 2rem;
+    margin-bottom: 10px
+}
+.all-div .right .box-a a{
+    background-color: #8BC5FF;
+    color: #fff;
+    padding: 1rem 2.8rem ;
+    margin-left: 5px;
+    border-radius: 3px;
+    font-size: 22px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #8BC5FF;
+}
+
+#news h1{
+    font-size: 22px;
+    color: #4E4E4E;
+    margin-bottom: 3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.newsmain{
+    display: flex;
+    justify-content: space-between;
+}
+.newsmain .box{
+width: 20%;
+}
+.newsmain .box .top{
+    position: relative;
+}
+.newsmain .box .top span{
+position: absolute;
+bottom: 15px;
+font-size: 13px;
+border-radius: 0 2px 2px 0;
+color: #fff;
+opacity: 0.85;
+background-color: #69ACF1;
+}
+.newsmain .box .top img{
+    width: 100%;
+    height: 8rem;
+    object-fit: cover;
+}
+.newsmain .box .bottom p{
+    color: #151515;
+    font-size: 15px;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+} 
+
+#services{
+    padding: 4rem 0;
+}
+.servicmain{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+.servicmain .box {
+    text-align: center;
+    width: 15%;
+}
+.servicmain .box p{
+    margin-top: 1rem;
+    color: #5B5B5B;
+    font-size: 14px;
+    padding: 0 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#services h1{
+    font-size: 22px;
+    color: #4E4E4E;
+    margin-bottom: 4rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about{
+padding: 4rem 0;
+background-color: #FBFBFB;
+}
+.mainabout{
+    display: flex;
+    justify-content: space-between;
+}
+.mainabout .box {
+    width: 32%;
+}
+.mainabout .box h1{
+    font-size: 20px;
+    margin-left: 1rem;
+    color: #4E4E4E;
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainabout .box .bottom{
+    box-shadow: 0px 0px 8px 0px #ebebeb;
+    padding: 15px 20px;
+    background-color: #fff;
+}
+.mainabout .box  .bottom p{
+    line-height: 22px;
+    color: #151515;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mainabout .box  .bottom span{
+    color: #5D8AB9;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#gallery{
+    padding: 4rem 0;
+}
+#gallery .gallerymain{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#gallery .gallerymain .box{
+    width: 22%;
+    box-shadow: 0px 0px 8px 0px #ebebeb;
+    padding: 15px;
+    transition: .4s;
+    margin-bottom: 2rem;
+}
+#gallery .gallerymain .box:hover{
+    transform: translateY(-10px);
+}
+#gallery .gallerymain .box .top img{
+width: 100%;
+}
+
+#content{
+    padding: 4rem 0;
+}
+#content .contentmain {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#content .contentmain .box{
+    width: 18%;
+    margin-bottom: 30px;
+    padding: 10px 18px;
+    border: 1px solid #E4E4E4;
+    text-align: center;
+    cursor: pointer;
+}
+#content .contentmain .box h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3A3A3A;
+    font-size: 22px;
+}
